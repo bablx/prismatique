@@ -7,11 +7,11 @@ import { motion, AnimatePresence } from 'framer-motion';
 const ROUTES = {
   '/':             { label: 'HOME',        icon: '⬡', colors: ['#00f2ff', '#0066ff'] },
   '/bonuses':      { label: 'BONUSES',     icon: '💎', colors: ['#53fc18', '#00b341'] },
-  '/raffles':      { label: 'RAFFLES',     icon: '🎟️', colors: ['#ff5edb', '#a020f0'] },
+  '/raffles':      { label: 'SHOP',        icon: '🛍️', colors: ['#7c5cff', '#00d4ff'] },
   '/challenges':   { label: 'CHALLENGES',  icon: '🎯', colors: ['#ffb020', '#ff5e00'] },
   '/rankings':     { label: 'LEADERBOARD', icon: '🏆', colors: ['#ffd54a', '#ff8a00'] },
   '/wager-rewards':{ label: 'LEADERBOARD', icon: '🏆', colors: ['#ffd54a', '#ff8a00'] },
-  '/shop':         { label: 'SHOP',        icon: '🛍️', colors: ['#7c5cff', '#00d4ff'] },
+  '/shop':         { label: 'RAFFLES',     icon: '🎟️', colors: ['#ff5edb', '#a020f0'] },
   '/faq':          { label: 'FAQ',         icon: '❔', colors: ['#00f2ff', '#8a2be2'] },
   '/socials':      { label: 'SOCIALS',     icon: '📡', colors: ['#1da1f2', '#9146ff'] },
   '/banned-games': { label: 'BANNED',      icon: '⛔', colors: ['#ff4444', '#7a0000'] },
